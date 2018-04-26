@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 博客
+title: Nitaの博客
 subtitle:
 description:
 keywords: Blog
-author: Jerry Chen
+author: Nita
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://peakchen90.github.io
+url: https://niuyiy.github.io.git
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -79,11 +79,9 @@ theme: jane
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:peakchen90/peakchen90.github.io.git
+  repo: git@github.com:niuyiy/niuyiy.github.io.git
   branch: master
   message: update
-  name: peakchen90
-  email: 1558267774@qq.com
 
 comments: true
 # disqus_shortname: peakchen90-github-io
