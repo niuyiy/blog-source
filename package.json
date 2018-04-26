@@ -1,0 +1,26 @@
+{
+  "name": "hexo-site",
+  "version": "0.0.1",
+  "private": true,
+  "hexo": {
+    "version": "3.7.1"
+  },
+  "scripts": {
+    "dev": "hexo server",
+    "push": "git add .&&git commit -m \"update blog\"&&git push -u origin master",
+    "deploy": "hexo clean&&hexo deploy --generate",
+    "publish": "npm run deploy&&npm run push"
+  },
+  "dependencies": {
+    "hexo": "^3.7.1",
+    "hexo-deployer-git": "^0.3.1",
+    "hexo-generator-archive": "^0.1.4",
+    "hexo-generator-category": "^0.1.3",
+    "hexo-generator-index": "^0.2.0",
+    "hexo-generator-tag": "^0.2.0",
+    "hexo-renderer-ejs": "^0.3.0",
+    "hexo-renderer-marked": "^0.3.0",
+    "hexo-renderer-stylus": "^0.3.1",
+    "hexo-server": "^0.2.0"
+  }
+}
